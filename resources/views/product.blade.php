@@ -15,7 +15,8 @@
 @endforeach
 @endisset
 
-<img src="{{ Storage::url($skus->product->image) }}">
+<img src="{{ Storage::url($skus->product->image) }}" height="380">
+
 <p>{{ $skus->product->__('description') }}</p>
 
 @if($skus->isAvailable())

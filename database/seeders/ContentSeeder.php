@@ -34,18 +34,10 @@ class ContentSeeder extends Seeder
                         'name' => 'Золотой',
                         'name_en' => 'Gold',
                     ],
-                    [
-                        'name' => 'Красный',
-                        'name_en' => 'Red',
-                    ],
-                    [
-                        'name' => 'Синий',
-                        'name_en' => 'Blue',
-                    ],
                 ],
             ],
             [
-                'name' => 'Внутренняя память',
+                'name' => 'Оперативная память',
                 'name_en' => 'Memory',
                 'options' => [
                     [
@@ -84,17 +76,17 @@ class ContentSeeder extends Seeder
                 'name' => 'Мобильные телефоны',
                 'name_en' => 'Mobile phones',
                 'code' => 'mobiles',
-                'description' => 'В этом разделе вы найдёте самые популярные мобильные телефонамы по отличным ценам!',
+                'description' => 'Раздел мобильные телефоны и смартфоны',
                 'description_en' => 'Mobile phones section with best prices for best popular phones!',
                 'image' => 'categories/mobile.jpg',
                 'products' => [
                     [
-                        'name' => 'iPhone X',
-                        'name_en' => 'iPhone X',
-                        'code' => 'iphone_x',
-                        'description' => 'Отличный продвинутый телефон',
+                        'name' => 'Samsung',
+                        'name_en' => 'Samsung',
+                        'code' => 'Samsung',
+                        'description' => 'Samsung Galaxy A25 5G 6/128GB SM-A256E',
                         'description_en' => 'The best phone',
-                        'image' => 'products/iphone_x.jpg',
+                        'image' => 'products/Samsung.jpg',
                         'properties' => [
                             1, 2,
                         ],
@@ -103,41 +95,41 @@ class ContentSeeder extends Seeder
                                 1, 7,
                             ],
                             [
-                                1, 8,
+                                1, 7,
                             ],
                             [
                                 2, 7,
                             ],
                             [
-                                2, 8,
+                                2, 7,
                             ],
                             [
                                 3, 7,
                             ],
                             [
-                                3, 8,
+                                3, 7,
                             ],
                             [
                                 4, 7,
                             ],
                             [
-                                4, 8,
+                                4, 7,
                             ],
                         ],
                     ],
                     [
-                        'name' => 'iPhone XL',
-                        'name_en' => 'iPhone XL',
-                        'code' => 'iphone_xl',
-                        'description' => 'Огромный продвинутый телефон',
+                        'name' => 'Apple-Iphone',
+                        'name_en' => 'Apple-Iphone',
+                        'code' => 'Apple-Iphone',
+                        'description' => 'Apple iPhone 16 Pro 512Gb A3294 MYLX3ZA/A',
                         'description_en' => 'The best huge phone',
-                        'image' => 'products/iphone_x_silver.jpg',
+                        'image' => 'products/apple_iphone.png',
                         'properties' => [
                             1, 2,
                         ],
                         'options' => [
                             [
-                                1, 8,
+                                1, 7,
                             ],
                             [
                                 1, 9,
@@ -163,12 +155,12 @@ class ContentSeeder extends Seeder
                         ],
                     ],
                     [
-                        'name' => 'HTC One S',
-                        'name_en' => 'HTC One S',
-                        'code' => 'htc_one_s',
-                        'description' => 'Зачем платить за лишнее? Легендарный HTC One S',
+                        'name' => 'BlackView',
+                        'name_en' => 'BlackView',
+                        'code' => 'BlackView',
+                        'description' => 'ЗBlackview BV9200 8/256Gb',
                         'description_en' => 'Why do you need to pay more? Legendary HTC One S',
-                        'image' => 'products/htc_one_s.png',
+                        'image' => 'products/blackview.jpg',
                         'properties' => [
                             1, 2,
                         ],
@@ -177,17 +169,17 @@ class ContentSeeder extends Seeder
                                 2, 7,
                             ],
                             [
-                                2, 8,
+                                2, 7,
                             ],
                         ],
                     ],
                     [
-                        'name' => 'iPhone 5SE',
-                        'name_en' => 'iPhone 5SE',
-                        'code' => 'iphone_5se',
-                        'description' => 'Отличный классический iPhone',
+                        'name' => 'Honor',
+                        'name_en' => 'Honor',
+                        'code' => 'Honor',
+                        'description' => 'Honor X9B 5G 8/256GB',
                         'description_en' => 'The best classic iPhone',
-                        'image' => 'products/iphone_5.jpg',
+                        'image' => 'products/honor.jpg',
                         'properties' => [
                             1, 2,
                         ],
@@ -196,29 +188,29 @@ class ContentSeeder extends Seeder
                                 1, 7,
                             ],
                             [
-                                1, 8,
+                                1, 7,
                             ],
                             [
                                 3, 7,
                             ],
                             [
-                                3, 8,
+                                3, 7,
                             ],
                             [
                                 4, 7,
                             ],
                             [
-                                4, 8,
+                                4, 7,
                             ],
                         ],
                     ],
                     [
-                        'name' => 'Samsung Galaxy J6',
-                        'name_en' => 'Samsung Galaxy J6',
-                        'code' => 'samsung_j6',
-                        'description' => 'Современный телефон начального уровня',
+                        'name' => 'Huawei-Nova',
+                        'name_en' => 'Huawei-Nova',
+                        'code' => 'Huawei-Nova',
+                        'description' => 'Huawei nova 12i 8/256GB',
                         'description_en' => 'Modern phone of basic level',
-                        'image' => 'products/samsung_j6.jpg',
+                        'image' => 'products/huawei_nova.jpg',
                         'properties' => [
                             1, 2,
                         ],
@@ -231,20 +223,20 @@ class ContentSeeder extends Seeder
                 ]
             ],
             [
-                'name' => 'Портативная техника',
-                'name_en' => 'Portable',
-                'code' => 'portable',
-                'description' => 'Раздел с портативной техникой.',
-                'description_en' => 'Section with portables.',
-                'image' => 'categories/portable.jpg',
+                'name' => 'Телевизоры',
+                'name_en' => 'Television',
+                'code' => 'TV',
+                'description' => 'Раздел с телевизорами и Видео.',
+                'description_en' => 'Section TV and Video.',
+                'image' => 'categories/tv.jpg',
                 'products' => [
                     [
-                        'name' => 'Наушники Beats Audio',
-                        'name_en' => 'Headphones Beats Audio',
-                        'code' => 'beats_audio',
-                        'description' => 'Отличный звук от Dr. Dre',
+                        'name' => 'Телевизор Xiaomi',
+                        'name_en' => 'Xiaomi',
+                        'code' => 'Xiaomi',
+                        'description' => 'ОXiaomi Mi TV A 32 2025_C',
                         'description_en' => 'Great sound from Dr. Dre',
-                        'image' => 'products/beats.jpg',
+                        'image' => 'products/xiaomi.jpg',
                         'properties' => [
                             1,
                         ],
@@ -261,60 +253,38 @@ class ContentSeeder extends Seeder
                         ],
                     ],
                     [
-                        'name' => 'Камера GoPro',
-                        'name_en' => 'Camera GoPro',
-                        'code' => 'gopro',
-                        'description' => 'Снимай самые яркие моменты с помощью этой камеры',
+                        'name' => 'Телевизор Harper',
+                        'name_en' => 'Harper',
+                        'code' => 'Harper',
+                        'description' => 'HARPER 65U661TS, 4K Ultra HD',
                         'description_en' => 'Capture the best moments of your life with that camera',
-                        'image' => 'products/gopro.jpg',
+                        'image' => 'products/harper.jpg',
                     ],
                     [
-                        'name' => 'Камера Panasonic HC-V770',
-                        'name_en' => 'Camera Panasonic HC-V770',
-                        'code' => 'panasonic_hc-v770',
-                        'description' => 'Для серьёзной видео съемки нужна серьёзная камера. Panasonic HC-V770 для этих целей лучший выбор!',
+                        'name' => 'Телевизор Sony',
+                        'name_en' => 'Sony',
+                        'code' => 'Sony',
+                        'description' => 'Sony KD-43X75K, 4K Ultra HD',
                         'description_en' => 'For serious video you need the profession camera. Panasonic HC-V770 is that you need!',
-                        'image' => 'products/video_panasonic.jpg',
+                        'image' => 'products/sony.jpg',
                     ],
                 ],
             ],
             [
-                'name' => 'Бытовая техника',
-                'name_en' => 'Appliance',
-                'code' => 'appliances',
-                'description' => 'Раздел с бытовой техникой',
-                'description_en' => 'Section with appliance',
-                'image' => 'categories/appliance.jpg',
+                'name' => 'Персональные компьютеры и ноутбуки',
+                'name_en' => 'PC && NoteBook',
+                'code' => 'PC && NoteBook',
+                'description' => 'Раздел с Персональными компьютерами и Ноутбуками',
+                'description_en' => 'Section with PC && NoteBook',
+                'image' => 'categories/pc.jpg',
                 'products' => [
                     [
-                        'name' => 'Кофемашина DeLongi',
-                        'name_en' => 'Coffee machine DeLongi',
-                        'code' => 'delongi',
-                        'description' => 'Хорошее утро начинается с хорошего кофе!',
-                        'description_en' => 'Good morning starts with a good coffee!',
-                        'image' => 'products/delongi.jpg',
-                        'properties' => [
-                            1,
-                        ],
-                        'options' => [
-                            [
-                                2,
-                            ],
-                            [
-                                5,
-                            ],
-                            [
-                                6,
-                            ],
-                        ],
-                    ],
-                    [
-                        'name' => 'Холодильник Haier',
-                        'name_en' => 'Refrigerator Haier',
-                        'code' => 'haier',
-                        'description' => 'Для большой семьи большой холодильник!',
-                        'description_en' => 'The huge refrigerator for a big family!',
-                        'image' => 'products/haier.jpg',
+                        'name' => 'Персональный компьютер FragMachine',
+                        'name_en' => 'FragMachine',
+                        'code' => 'FragMachine',
+                        'description' => 'FragMachine Liquid 5106 (Core i5-12400F 2.5 ГГц, 16 Гб, SSD 1024 Мб, GeForce RTX4060Ti - 8192Мб',
+                        'description_en' => 'GOOD PC',
+                        'image' => 'products/fragmachine.jpg',
                         'properties' => [
                             1,
                         ],
@@ -327,25 +297,47 @@ class ContentSeeder extends Seeder
                             ],
                             [
                                 3,
+                            ],
+                        ],
+                    ],
+                    [
+                        'name' => 'Ноутбук Lenovo',
+                        'name_en' => 'Lenovo',
+                        'code' => 'Lenovo',
+                        'description' => 'Lenovo LOQ 15IRH8 (82XV00KCRK)',
+                        'description_en' => 'Good NoteBook',
+                        'image' => 'products/lenovo.jpg',
+                        'properties' => [
+                            1,
+                        ],
+                        'options' => [
+                            [
+                                2,
+                            ],
+                            [
+                                5,
+                            ],
+                            [
+                                7,
                             ]
                         ],
                     ],
                     [
-                        'name' => 'Блендер Moulinex',
-                        'name_en' => 'Blender Moulinex',
-                        'code' => 'moulinex',
-                        'description' => 'Для самых смелых идей',
+                        'name' => 'Ноутбук Irbis',
+                        'name_en' => 'Irbis',
+                        'code' => 'Irbis',
+                        'description' => 'IRBIS 15NBC1014 (15NBC1014)',
                         'description_en' => 'For best ideas',
-                        'image' => 'products/moulinex.jpg',
+                        'image' => 'products/irbis.jpg',
 
                     ],
                     [
-                        'name' => 'Мясорубка Bosch',
-                        'name_en' => 'Food processor Bosch',
-                        'code' => 'bosch',
-                        'description' => 'Любите домашние котлеты? Вам определенно стоит посмотреть на эту мясорубку!',
+                        'name' => 'Ноутбук HP',
+                        'name_en' => 'HP',
+                        'code' => 'HP',
+                        'description' => 'HP 250 G9 (9B993EA)',
                         'description_en' => 'Do you like home cutlets? You need to see that combine!',
-                        'image' => 'products/bosch.jpg',
+                        'image' => 'products/hp.jpg',
                     ],
                 ],
             ]

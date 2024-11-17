@@ -22,15 +22,15 @@
 			@csrf
 
 			<div class="input-group row">
-				<label for="price" class="col-sm-2 col-form-label">Цена: </label>
-				<div class="col-sm-2">
+				<label for="price" class="col-sm-5 col-form-label">Цена: </label>
+				<div class="col-sm-5">
 					@include('auth.layouts.error', ['fieldName' => 'price'])
 					<input type="text" class="form-control" name="price" value="@isset($sku){{ $sku->price }}@endisset">
 				</div>
 			</div>
 			<div class="input-group row">
-				<label for="count" class="col-sm-2 col-form-label">Кол-во: </label>
-				<div class="col-sm-2">
+				<label for="count" class="col-sm-5 col-form-label">Кол-во: </label>
+				<div class="col-sm-5">
 					@include('auth.layouts.error', ['fieldName' => 'count'])
 					<input type="text" class="form-control" name="count" value="@isset($sku){{ $sku->count }}@endisset">
 				</div>
@@ -39,8 +39,8 @@
 
 			@foreach ($product->properties as $property)
 			<div class="input-group row">
-				<label for="property_id[{{ $property->id }}]" class="col-sm-2 col-form-label">{{ $property->name }}: </label>
-				<div class="col-sm-6">
+				<label for="property_id[{{ $property->id }}]" class="col-sm-5 col-form-label">{{ $property->name }}: </label>
+				<div class="col-sm-8">
 					<select name="property_id[{{ $property->id }}]" class="form-control">
 						<!-- если значения уже были(т.е. при редактировании) они подтянутся и подставятся в форму  -->
 						@foreach($property->propertyOptions as $propertyOption)
